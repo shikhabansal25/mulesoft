@@ -45,36 +45,36 @@ MuleSoft prefers RAML due to its:
 
 
 **Traits**:
-- they are resource types
-- resource --> from resource as a whole (method, request, and response)
-- traits --> extract patther from only for method (request and response)
-- used for more than one method
+    - they are resource types
+    - resource --> from resource as a whole (method, request, and response)
+    - traits --> extract patther from only for method (request and response)
+    - used for more than one method
 
 **Mule 4:**
 Mule 4 are mavenised projects (pom.xml : is a file where you mention all proj related info and depnedecy and download and mention in the pom.xml) here the pom.xml is updatede automatically when you drag or import anything.
 
-Mule structure :
-      1. Payload
-      2. attributes
-      3. variables
-      4. error
+Mule structure:
+    1. Payload
+    2. attributes
+    3. variables
+    4. error
 
-Files important for a mule 4 proj :
-      - pom.xml
-      - src/main/mule
-      - /src/main/resources
-      - mule-artifact.json
+Files important for a mule 4 proj:
+    - pom.xml
+    - src/main/mule
+    - /src/main/resources
+    - mule-artifact.json
 
 Each Mule app xml has :
-      - Message flow - Graphical representation
-      - Global elements - contains all the config details
-      - configuration aml - contains all the xml version of graphical representation
+    - Message flow - Graphical representation
+    - Global elements - contains all the config details
+    - configuration aml - contains all the xml version of graphical representation
 
 **Flow, SubFlow and PrivateFlow:**
 
 - Flow :
-  - atlease one single flow
-  - 3 parts:  Source, process, error handling
+    - atlease one single flow
+    - 3 parts:  Source, process, error handling
   
   <img width="448" height="428" alt="image" src="https://github.com/user-attachments/assets/bd0502c2-1bee-4aec-9bc2-663cb540fed6" />
         
