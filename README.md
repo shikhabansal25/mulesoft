@@ -4,7 +4,7 @@ MuleSoft Catalyst pillars can be broken into 6paths :
 1. Busines outcomes:
     - Business outcomes : contains information about how to identify and measure outcomes and align them to KPIs and stakeholders
 2. Technolgy Delivery: path to operate MuleSoft’s Anypoint Platform
-    - Anypoint Platform  : 
+    - Anypoint Platform 
     - Projects
 3. Org enablement
    - Center for Enablement (C4E) :  enables organizations to maximize their results through best practices, reuse, and self-service
@@ -27,7 +27,6 @@ DevOps is a movement with a set of practices that aim to increase collaboration 
 **Mule Event**: Mule Message + Variables + error info
 
 **Mule Message**: Payload + Attributes
-
 
 
 **RAML (RESTful API Modeling Language)** is a YAML-based language used for designing, describing, and documenting RESTful APIs (1:09). It promotes a design-first approach for consistency and reusability, allowing developers to define API contracts before implementation.
@@ -59,7 +58,7 @@ Mule structure
       1. Payload
       2. attributes
       3. variables
-      4, error
+      4. error
 
 Files important for a mule 4 proj
       - pom.xml
@@ -75,17 +74,15 @@ Each Mule app xml has -
 Flow, SubFlow and PrivateFlow:
 
 - Flow :
-  
-        - atlease one single flow
-        - 3 parts:  Source, process, error handling
+  - atlease one single flow
+  - 3 parts:  Source, process, error handling
   
   <img width="448" height="428" alt="image" src="https://github.com/user-attachments/assets/bd0502c2-1bee-4aec-9bc2-663cb540fed6" />
         
 - SubFlow:
-  
-        - cannot be independent and needs to be refrenced by flow
-        - when you dont have Source and error handling part but only have process filters
-        - Error handling is being handled by calling flow or private flows.
+  - cannot be independent and needs to be refrenced by flow
+  - when you dont have Source and error handling part but only have process filters
+  - Error handling is being handled by calling flow or private flows.
   
 
 - Private Flow:
