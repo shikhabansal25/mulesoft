@@ -75,18 +75,21 @@ Each Mule app xml has -
 Flow, SubFlow and PrivateFlow:
 
 - Flow :
+  
         - atlease one single flow
         - 3 parts:  Source, process, error handling
   
   <img width="448" height="428" alt="image" src="https://github.com/user-attachments/assets/bd0502c2-1bee-4aec-9bc2-663cb540fed6" />
         
 - SubFlow:
+  
         - cannot be independent and needs to be refrenced by flow
         - when you dont have Source and error handling part but only have process filters
         - Error handling is being handled by calling flow or private flows.
   
 
 - Private Flow:
+  
         - cannot be independent and needs to be refrenced by flow
         - when you dont have Source but only have process and error handling filters
   
