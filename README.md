@@ -23,7 +23,9 @@ API-Led Connectivity:
 
 DevOps is a movement with a set of practices that aim to increase collaboration between IT operations and development teams.
 
+
 **Mule Event**: Mule Message + Variables + error info
+
 **Mule Message**: Payload + Attributes
 
 
@@ -75,9 +77,8 @@ Flow, SubFlow and PrivateFlow:
 - Flow :
         - atlease one single flow
         - 3 parts:  Source, process, error handling
-        - <img width="448" height="428" alt="image" src="https://github.com/user-attachments/assets/bd0502c2-1bee-4aec-9bc2-663cb540fed6" />
-
-        -
+  
+  <img width="448" height="428" alt="image" src="https://github.com/user-attachments/assets/bd0502c2-1bee-4aec-9bc2-663cb540fed6" />
         
 - SubFlow:
         - cannot be independent and needs to be refrenced by flow
@@ -88,4 +89,5 @@ Flow, SubFlow and PrivateFlow:
 - Private Flow:
         - cannot be independent and needs to be refrenced by flow
         - when you dont have Source but only have process and error handling filters
+  
   <img width="472" height="386" alt="image" src="https://github.com/user-attachments/assets/fb10f986-d43c-4571-bc53-563d771cc2c2" />
