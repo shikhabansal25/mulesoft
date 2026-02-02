@@ -30,6 +30,7 @@ DevOps is a movement with a set of practices that aim to increase collaboration 
 
 
 **RAML (RESTful API Modeling Language)** is a YAML-based language used for designing, describing, and documenting RESTful APIs (1:09). It promotes a design-first approach for consistency and reusability, allowing developers to define API contracts before implementation.
+RAML is central to MuleSoft's API-led connectivity strategy, providing a standardized, reusable contract for effective API development and management.
 
 MuleSoft prefers RAML due to its:
 
@@ -43,8 +44,6 @@ MuleSoft prefers RAML due to its:
     It helps enforce standards, making APIs more predictable and manageable in large enterprise environments.
 
 
-RAML is central to MuleSoft's API-led connectivity strategy, providing a standardized, reusable contract for effective API development and management.
-
 **Traits**:
 - they are resource types
 - resource --> from resource as a whole (method, request, and response)
@@ -54,24 +53,24 @@ RAML is central to MuleSoft's API-led connectivity strategy, providing a standar
 **Mule 4:**
 Mule 4 are mavenised projects (pom.xml : is a file where you mention all proj related info and depnedecy and download and mention in the pom.xml) here the pom.xml is updatede automatically when you drag or import anything.
 
-Mule structure
+Mule structure :
       1. Payload
       2. attributes
       3. variables
       4. error
 
-Files important for a mule 4 proj
+Files important for a mule 4 proj :
       - pom.xml
       - src/main/mule
       - /src/main/resources
       - mule-artifact.json
 
-Each Mule app xml has -
+Each Mule app xml has :
       - Message flow - Graphical representation
       - Global elements - contains all the config details
       - configuration aml - contains all the xml version of graphical representation
 
-Flow, SubFlow and PrivateFlow:
+**Flow, SubFlow and PrivateFlow:**
 
 - Flow :
   - atlease one single flow
