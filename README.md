@@ -90,3 +90,10 @@ Each Mule app xml has :
         - when you dont have Source but only have process and error handling filters
   
   <img width="472" height="386" alt="image" src="https://github.com/user-attachments/assets/fb10f986-d43c-4571-bc53-563d771cc2c2" />
+
+
+
+Important Points:
+- The** Mule runtime** is the execution environment for Mule applications, responsible for processing messages, routing, and transforming data.
+  DataWeave is specifically designed to work seamlessly within the Mule runtime. It is an integral part of the MuleSoft ecosystem and is used for data transformation tasks within Mule applications. DataWeave scripts are executed within the context of the Mule runtime, allowing for efficient and effective data processing.
+- 
